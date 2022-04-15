@@ -87,16 +87,17 @@ def filter_word(listofremainingword, a_word, the_result):
 if __name__ == '__main__':
     print('Wordle Solver')
 
-    list_words = open_words('resources/words_en.txt')
+    lang = sys.argv[1]
+
+    list_words = open_words('resources/words_'+lang+'.txt')
     print('Chargement du fichier : ' + str(len(list_words)) + ' mots disponibles')
     print('. : n''existe pas / minuscule : mal placé / majuscule : bien placé ')
     first_round = True
     while True:
         word = propose_word(list_words, alea=first_round)
-        print('Proposez le mot : ' + word)
-        result = input('Résultat : ')
+        result = input('Proposez le mot \'' + word + '\' -> résultat = ')
         list_words = filter_word(list_words, word, result)
         print('Il reste ' + str(len(list_words)) + ' mots disponibles')
-        if len(list_words) <= 5:
+        if 1 < len(list_words) <= 5:
             print(', '.join(list_words))
         first_round = False
