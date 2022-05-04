@@ -85,6 +85,9 @@ def filter_word(listofremainingword, a_word, the_result):
 
 
 if __name__ == '__main__':
+
+    sys.stdout.reconfigure(encoding='utf-8')
+
     print('Wordle Solver')
 
     lang = sys.argv[1]
