@@ -146,7 +146,6 @@ acota
 acote
 acoto
 acres
-acro-
 acroe
 acroy
 actas
@@ -162,7 +161,6 @@ acudi
 acudo
 acuea
 acueo
-acui-
 acula
 acule
 aculo
@@ -188,7 +186,6 @@ adela
 adema
 ademe
 ademo
-aden-
 adian
 adiar
 adias
@@ -233,7 +230,6 @@ adven
 aedos
 aerea
 aereo
-aero-
 aetas
 afaca
 afama
@@ -277,7 +273,6 @@ aforo
 afosa
 afose
 afoso
-afro-
 aftas
 afufa
 afufe
@@ -312,7 +307,6 @@ agraz
 agria
 agrie
 agrio
-agro-
 agror
 aguai
 aguan
@@ -544,7 +538,6 @@ altas
 altea
 altee
 alteo
-alti-
 altor
 altos
 aluce
@@ -685,7 +678,6 @@ aneto
 anexa
 anexe
 anexo
-anfi-
 angel
 angla
 anglo
@@ -722,9 +714,7 @@ ansia
 ansie
 ansio
 antas
-ante-
 antes
-anti-
 antia
 anton
 antro
@@ -856,14 +846,12 @@ arbor
 arcan
 arcar
 arcas
-arce-
 arcea
 arcen
 arces
 archa
 arche
 archi
-arci-
 arcon
 arcos
 ardan
@@ -1137,7 +1125,6 @@ atras
 atril
 atrio
 atroz
-atto-
 atufa
 atufe
 atufo
@@ -1176,7 +1163,6 @@ aures
 auron
 ausol
 autan
-auto-
 autor
 autos
 avada
@@ -1389,7 +1375,6 @@ baria
 baril
 bario
 barne
-baro-
 baron
 baros
 barra
@@ -2083,7 +2068,6 @@ casos
 caspa
 casta
 casto
-cata-
 catac
 catan
 catar
@@ -2395,7 +2379,6 @@ chuzo
 ciaba
 ciado
 ciais
-cian-
 ciani
 ciara
 ciare
@@ -2453,7 +2436,6 @@ citar
 citas
 citen
 cites
-cito-
 citra
 civil
 claco
@@ -2758,7 +2740,6 @@ crina
 crine
 crino
 crins
-crio-
 crios
 croan
 croar
@@ -3032,10 +3013,8 @@ debil
 debio
 debla
 debut
-deca-
 decae
 decai
-deci-
 decia
 decio
 decir
@@ -3063,7 +3042,6 @@ dello
 delos
 delta
 demas
-demo-
 demos
 dende
 denia
@@ -3083,7 +3061,6 @@ depto
 deque
 derbi
 derek
-derm-
 desca
 desda
 desde
@@ -3315,7 +3292,6 @@ echen
 eches
 echos
 ecija
-ecto-
 ecuos
 edads
 edema
@@ -3417,8 +3393,6 @@ emulo
 enana
 enano
 encia
-endo-
-enea-
 eneal
 eneas
 eneja
@@ -3459,7 +3433,6 @@ epodo
 epota
 epoto
 epoxi
-equi-
 equis
 eraba
 erado
@@ -3539,13 +3512,11 @@ etimo
 etnea
 etneo
 etnia
-etno-
 etola
 etolo
 etusa
 eubea
 eubeo
-euro-
 euros
 evada
 evade
@@ -3599,7 +3570,6 @@ fados
 faena
 faene
 faeno
-fago-
 fagos
 fagot
 fagua
@@ -3707,7 +3677,6 @@ ferio
 ferir
 fermi
 feroz
-ferr-
 ferra
 ferre
 ferri
@@ -3785,7 +3754,6 @@ filma
 filme
 filmo
 films
-filo-
 filon
 filos
 final
@@ -3819,7 +3787,6 @@ fisgo
 fisio
 fista
 fisto
-fito-
 fitos
 fizan
 fizar
@@ -3892,7 +3859,6 @@ fondo
 fonil
 fonio
 fonje
-fono-
 fonos
 foque
 foral
@@ -3924,7 +3890,6 @@ foses
 fosil
 fosor
 fosos
-foto-
 foton
 fotos
 fovea
@@ -4083,7 +4048,6 @@ galio
 galla
 galle
 gallo
-galo-
 galon
 galop
 galos
@@ -4091,7 +4055,6 @@ galua
 gamas
 gamba
 gamma
-gamo-
 gamon
 gamos
 ganan
@@ -4183,7 +4146,6 @@ gibas
 giben
 gibes
 gibon
-giga-
 gigas
 gijon
 giles
@@ -4217,7 +4179,6 @@ globo
 glosa
 glose
 gloso
-gluc-
 gluma
 gluon
 gmail
@@ -4487,7 +4448,6 @@ halla
 halle
 hallo
 halls
-halo-
 halon
 halos
 hamez
@@ -4549,9 +4509,6 @@ helee
 heleo
 helio
 helor
-hema-
-hemi-
-hemo-
 hemos
 henal
 henao
@@ -4585,7 +4542,6 @@ hetea
 heteo
 hevea
 hevia
-hexa-
 hiato
 hicsa
 hicso
@@ -4634,7 +4590,6 @@ hipas
 hipen
 hiper
 hipes
-hipo-
 hipos
 hippy
 hiram
@@ -4673,9 +4628,7 @@ holeo
 holgo
 holle
 hollo
-holo-
 homes
-homo-
 homun
 honda
 hondo
@@ -5249,9 +5202,7 @@ kefir
 kendo
 kenia
 kevin
-kili-
 kilim
-kilo-
 kilos
 kirie
 kitts
@@ -5478,7 +5429,6 @@ letea
 leteo
 leton
 letra
-leuc-
 leuco
 leuda
 leude
@@ -5569,7 +5519,6 @@ lindo
 linea
 linee
 lineo
-linf-
 linfa
 linio
 linon
@@ -5578,7 +5527,6 @@ liosa
 lioso
 lipes
 lipis
-lipo-
 lipon
 liras
 liray
@@ -5601,7 +5549,6 @@ liten
 lites
 litio
 litis
-lito-
 litre
 litro
 lituo
@@ -5993,7 +5940,6 @@ maulo
 maura
 maure
 mauro
-maxi-
 mayal
 mayan
 mayar
@@ -6044,7 +5990,6 @@ medra
 medre
 medro
 meeis
-mega-
 megos
 meiga
 meigo
@@ -6120,11 +6065,9 @@ mesen
 meses
 mesma
 mesmo
-meso-
 meson
 mesta
 mesto
-meta-
 metad
 metal
 metan
@@ -6182,7 +6125,6 @@ migue
 mijas
 mijos
 milan
-mili-
 milis
 milla
 millo
@@ -6204,7 +6146,6 @@ minen
 mines
 minga
 mingo
-mini-
 minia
 minie
 minio
@@ -6339,7 +6280,6 @@ mongo
 monis
 monja
 monje
-mono-
 monos
 monra
 monse
@@ -6393,7 +6333,6 @@ moteo
 motes
 motil
 motin
-moto-
 moton
 motor
 motos
@@ -6414,7 +6353,6 @@ muare
 muble
 mucha
 mucho
-muco-
 mudan
 mudar
 mudas
@@ -6566,7 +6504,6 @@ nanci
 nanea
 nanee
 naneo
-nano-
 nansa
 nansu
 nanta
@@ -6624,7 +6561,6 @@ neceo
 nechi
 necia
 necio
-nefr-
 negar
 negas
 negra
@@ -6743,7 +6679,6 @@ nopal
 noque
 noral
 noray
-nord-
 noria
 norma
 norme
@@ -6975,7 +6910,6 @@ oncea
 oncee
 onceo
 onces
-onco-
 ondas
 ondea
 ondee
@@ -7069,7 +7003,6 @@ oroya
 orpua
 orsay
 ortiz
-orto-
 ortos
 oruga
 orujo
@@ -7293,7 +7226,6 @@ papon
 papos
 papua
 papus
-para-
 paral
 paran
 parao
@@ -7372,7 +7304,6 @@ pates
 patia
 patin
 patio
-pato-
 paton
 patos
 pauji
@@ -7499,7 +7430,6 @@ perca
 perdi
 perea
 perez
-peri-
 peris
 perla
 perle
@@ -7530,7 +7460,6 @@ pesor
 pesos
 peste
 pesto
-peta-
 petan
 petar
 petas
@@ -7575,7 +7504,6 @@ pichi
 picho
 picia
 picio
-pico-
 picon
 picop
 picor
@@ -7668,7 +7596,6 @@ piren
 pires
 pirex
 pirla
-piro-
 piron
 piros
 pirra
@@ -7773,7 +7700,6 @@ poder
 podes
 podia
 podio
-podo-
 podon
 podra
 podre
@@ -7792,7 +7718,6 @@ polea
 polen
 poleo
 polex
-poli-
 polin
 polio
 polir
@@ -7855,7 +7780,6 @@ posmo
 poson
 posos
 posse
-post-
 posta
 poste
 potan
@@ -8080,7 +8004,6 @@ quins
 quios
 quipa
 quipu
-quir-
 quisa
 quise
 quiso
@@ -8115,7 +8038,6 @@ racor
 radal
 radar
 radas
-radi-
 radia
 radie
 radio
@@ -8366,7 +8288,6 @@ retal
 retan
 retar
 retas
-rete-
 retel
 reten
 retes
@@ -8447,7 +8368,6 @@ rinde
 rindo
 ringa
 ringo
-rino-
 rioja
 ripan
 ripia
@@ -8471,7 +8391,6 @@ rizal
 rizan
 rizar
 rizas
-rizo-
 rizon
 rizos
 roais
@@ -8922,7 +8841,6 @@ sello
 seltz
 selva
 semen
-semi-
 semis
 senas
 senda
@@ -8951,7 +8869,6 @@ serle
 serlo
 serme
 serna
-sero-
 seron
 seros
 serpa
@@ -9175,14 +9092,12 @@ sosar
 sosas
 sosia
 sosos
-sota-
 sotan
 sotar
 sotas
 soten
 sotes
 sotil
-soto-
 sotol
 sotos
 sovoz
@@ -9505,7 +9420,6 @@ tekom
 telar
 telas
 telde
-tele-
 telef
 teles
 telex
@@ -9552,7 +9466,6 @@ tepes
 tepic
 tepuy
 teque
-tera-
 terai
 teran
 terca
@@ -9853,7 +9766,6 @@ trapa
 trape
 trapo
 traro
-tras-
 trata
 trate
 trato
@@ -10393,7 +10305,6 @@ vibre
 vibro
 vicar
 vicco
-vice-
 vicha
 viche
 vichi
@@ -10546,11 +10457,8 @@ weber
 wifis
 wolff
 world
-xeno-
 xenon
-xero-
 xichu
-xilo-
 xinca
 xiote
 xitla

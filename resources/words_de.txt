@@ -728,7 +728,6 @@ clean
 clint
 clips
 clogs
-clone
 cloud
 clown
 clubs
@@ -4188,7 +4187,6 @@ senil
 senke
 senkt
 senne
-senor
 sense
 senta
 seoul

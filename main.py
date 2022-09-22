@@ -90,10 +90,12 @@ if __name__ == '__main__':
 
     print('Wordle Solver')
 
-    lang = sys.argv[1]
+    lang = input('ENTREZ : fr en es de it ? ')
+    if lang=='':
+        lang='fr'
 
     list_words = open_words('resources/words_'+lang+'.txt')
-    print('Chargement du fichier : ' + str(len(list_words)) + ' mots disponibles')
+    print(f'Chargement du fichier {lang} :  {str(len(list_words))} mots disponibles')
     print('. : n''existe pas / minuscule : mal placé / majuscule : bien placé ')
     first_round = True
     while True:
