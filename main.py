@@ -1,6 +1,5 @@
 #
 # Wordle Solver
-import os
 import random
 import sys
 
@@ -91,15 +90,21 @@ if __name__ == '__main__':
     print('Wordle Solver')
 
     lang = input('ENTREZ : fr en es de it ? ')
-    if lang=='':
-        lang='fr'
+    if lang == '':
+        lang = 'fr'
 
-    list_words = open_words('resources/words_'+lang+'.txt')
+    list_words = open_words('resources/words_' + lang + '.txt')
     print(f'Chargement du fichier {lang} :  {str(len(list_words))} mots disponibles')
     print('. : n''existe pas / minuscule : mal placé / majuscule : bien placé ')
+
+    propositions = input('liste de mots à proposer  (séparés par un espace, vide sinon) : ?')
+    propositions = [] if propositions.strip() == '' else propositions.strip().split(' ')
     first_round = True
     while True:
-        word = propose_word(list_words, alea=first_round)
+        if len(propositions) > 0:
+            word = propositions.pop(0)
+        else:
+            word = propose_word(list_words, alea=first_round)
         result = input('Proposez le mot \'' + word + '\' -> résultat = ')
         list_words = filter_word(list_words, word, result)
         print('Il reste ' + str(len(list_words)) + ' mots disponibles')
