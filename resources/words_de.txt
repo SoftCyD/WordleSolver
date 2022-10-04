@@ -1741,7 +1741,6 @@ hallo
 halls
 hallt
 halma
-halme
 halms
 halse
 halte
