@@ -307,7 +307,6 @@ armes
 armet
 armon
 arobe
-arole
 arols
 arome
 arque
@@ -1426,7 +1425,6 @@ dechu
 decis
 decks
 decor
-decos
 decri
 decru
 decue
@@ -3061,7 +3059,6 @@ latif
 latin
 latte
 laure
-lause
 lauze
 lavee
 laver
@@ -6019,6 +6016,5 @@ zoome
 zooms
 zorse
 zouke
-zouks
 zozos
 zumba
