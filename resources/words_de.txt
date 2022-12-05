@@ -1631,7 +1631,6 @@ gosst
 goten
 gotha
 gotik
-gotin
 gouda
 goyas
 grabe
@@ -5064,7 +5063,6 @@ waten
 watet
 watte
 watts
-wayne
 weben
 weber
 webst
