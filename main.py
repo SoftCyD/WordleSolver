@@ -35,11 +35,7 @@ def most_letters(listofwords):
 
 def propose_word(listofremainingword, alea=False):
     if len(listofremainingword) >= 1:
-
-        set_of_five = []
-        for wrd in listofremainingword:
-            if len(set(wrd)) == 5:
-                set_of_five.append(wrd)
+        set_of_five = [wrd for wrd in listofremainingword if len(set(wrd)) == 5]
         if len(set_of_five) >= 1:
             if not alea:
                 return most_letters(set_of_five)
@@ -55,29 +51,12 @@ def filter_word(listofremainingword, a_word, the_result):
     position = 0
     for letter in a_word:
         if the_result[position] == '.':
-            new_list = []
-            for wrd in listofremainingword:
-                if letter not in wrd:
-                    new_list.append(wrd)
-            listofremainingword = new_list
+            listofremainingword = [wrd for wrd in listofremainingword if letter not in wrd]
         elif the_result[position].islower():
-            new_list = []
-            for wrd in listofremainingword:
-                if letter != wrd[position]:
-                    new_list.append(wrd)
-            listofremainingword = new_list
-            new_list = []
-            for wrd in listofremainingword:
-                if letter in wrd:
-                    new_list.append(wrd)
-            listofremainingword = new_list
+            listofremainingword = [wrd for wrd in listofremainingword if letter != wrd[position]]
+            listofremainingword = [wrd for wrd in listofremainingword if letter in wrd]
         elif the_result[position].isupper():
-            new_list = []
-            for wrd in listofremainingword:
-                if letter == wrd[position]:
-                    new_list.append(wrd)
-            listofremainingword = new_list
-
+            listofremainingword = [wrd for wrd in listofremainingword if letter == wrd[position]]
         position += 1
 
     return listofremainingword
