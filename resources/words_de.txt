@@ -263,7 +263,6 @@ asses
 asset
 aster
 astes
-astor
 astra
 asyls
 atari
@@ -856,7 +855,6 @@ deute
 deutz
 devon
 devot
-dgzrs
 dhabi
 dhaka
 diana
@@ -3738,7 +3736,6 @@ quirl
 quito
 quitt
 quoll
-quota
 quote
 rabat
 rabbi
