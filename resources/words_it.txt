@@ -5685,6 +5685,7 @@ reami
 reati
 reato
 rebbi
+rebus
 recai
 recei
 rechi
@@ -5831,6 +5832,7 @@ roane
 roani
 roano
 robbi
+robot
 rocca
 rocce
 rocco
