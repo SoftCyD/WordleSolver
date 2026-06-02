@@ -9,7 +9,7 @@ def open_words(filename):
     return f.read().splitlines()
 
 
-def most_letters(listofwords):
+def find_best_word(listofwords):
     dict_letter = {}
     # count letters
     for wrd in listofwords:
@@ -24,8 +24,11 @@ def most_letters(listofwords):
 
     for wrd in listofwords:
         score = 0
+        memletter = set()
         for letter in wrd:
-            score += dict_letter[letter]
+            if letter not in memletter:
+                score += dict_letter[letter]
+                memletter.add(letter)
         if score > best:
             bestword = wrd
             best = score
@@ -35,14 +38,14 @@ def most_letters(listofwords):
 
 def propose_word(listofremainingword, alea=False):
     if len(listofremainingword) >= 1:
-        set_of_five = [wrd for wrd in listofremainingword if len(set(wrd)) == 5]
-        if len(set_of_five) >= 1:
+        set_of_unik_letters = [wrd for wrd in listofremainingword if len(set(wrd)) == len(listofremainingword[0])]
+        if len(set_of_unik_letters) >= 1:
             if not alea:
-                return most_letters(set_of_five)
+                return find_best_word(set_of_unik_letters)
             else:
-                return set_of_five[random.randint(0, len(set_of_five) - 1)]
+                return set_of_unik_letters[random.randint(0, len(set_of_unik_letters) - 1)]
         else:
-            return most_letters(listofremainingword)
+            return find_best_word(listofremainingword)
     else:
         raise Exception('plus de mot disponible')
 
@@ -68,9 +71,9 @@ if __name__ == '__main__':
 
     print('Wordle Solver')
 
-    lang = input('ENTREZ : fr en es de it ? ')
+    lang = input('ENTREZ : fr4 fr5 fr6 en es de it ? ')
     if lang == '':
-        lang = 'fr'
+        lang = 'fr6'
 
     list_words = open_words('resources/words_' + lang + '.txt')
     print(f'Chargement du fichier {lang} :  {str(len(list_words))} mots disponibles')
