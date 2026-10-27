@@ -1,5 +1,6 @@
 #
 # Wordle Solver
+import os
 import random
 import sys
 
@@ -50,10 +51,10 @@ def propose_word(listofremainingword, alea=False):
         raise Exception('plus de mot disponible')
 
 
-def filter_word(listofremainingword, a_word, the_result):
+def filter_word(listofremainingword, a_word, the_result, keep_letters):
     position = 0
     for letter in a_word:
-        if the_result[position] == '.':
+        if the_result[position] == '.' and letter not in keep_letters:
             listofremainingword = [wrd for wrd in listofremainingword if letter not in wrd]
         elif the_result[position].islower():
             listofremainingword = [wrd for wrd in listofremainingword if letter != wrd[position]]
@@ -71,7 +72,9 @@ if __name__ == '__main__':
 
     print('Wordle Solver')
 
-    lang = input('ENTREZ : fr4 fr5 fr6 en es de it ? ')
+    lwd = [f.replace('words_','').replace('.txt','') for f in os.listdir('resources')]
+
+    lang = input('ENTREZ : ' + ', '.join(lwd) +  ' :')
     if lang == '':
         lang = 'fr6'
 
@@ -79,16 +82,20 @@ if __name__ == '__main__':
     print(f'Chargement du fichier {lang} :  {str(len(list_words))} mots disponibles')
     print('. : n''existe pas / minuscule : mal placé / majuscule : bien placé ')
 
-    propositions = input('liste de mots à proposer  (séparés par un espace, vide sinon) : ?')
+    propositions = input('liste de mots à proposer  (en minuscule, séparés par un espace, vide sinon) : ?')
     propositions = [] if propositions.strip() == '' else propositions.strip().split(' ')
     first_round = True
+    keep_these_letters = set()
     while True:
         if len(propositions) > 0:
             word = propositions.pop(0)
         else:
             word = propose_word(list_words, alea=first_round)
         result = input('Proposez le mot \'' + word + '\' -> résultat = ')
-        list_words = filter_word(list_words, word, result)
+        for res_letter in result:
+            if res_letter != '.':
+                keep_these_letters.add(res_letter.lower())
+        list_words = filter_word(list_words, word, result, keep_these_letters)
         print('Il reste ' + str(len(list_words)) + ' mots disponibles')
         if 1 < len(list_words) <= 5:
             print(', '.join(list_words))
